@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Domashka-1</title>
+</head>
+<body>
+
+    <div>
+        <ul id="myUl">
+            <li id="item1">Лист 1</li>
+            <li id="item2">Лист 2</li>
+            <li id="item3">Лист 3</li>
+            <li id="item4">Лист 4</li>
+            <li id="item5">Лист 5</li>
+        </ul>
+    </div>
+    <form class="buttons">
+        <input type="button" value="Выберите первый елемент" onclick="selectFirstItem(this.form)">
+        <input type="button" value="Выбирите последний елемент" onclick="selectLastItem(this.form)">
+        <input type="button" value="Выбирите следующий елемент" onclick="selectNextItem(this.form)">
+        <input type="button" value="Выбирите предвидущий елемент" onclick="selectPrevItem(this.form)">
+        <input type="button" value="Добавить елемент" onclick="addLastElem(this.form)">
+        <input type="button" value="Удалить елемент" onclick="deleteLastElem(this.form)">
+        <input type="button" value="добавить в начало" onclick="addFirstElem(this.form)">
+    </form>
+
+    <script src="./scripts/my_script.js"></script>
+</body>
+</html>
