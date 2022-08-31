@@ -1,0 +1,35 @@
+body {
+    overflow: hidden;
+}
+
+.Stopwatch {
+    display: flex;
+    justify-content: center;
+}
+
+.Stopwatch__list {
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 0;
+    padding: 0 20px 0 20px;
+    background-color: rgb(0 255 0);
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+#list {
+    font-size: 18px; 
+}
+
+.Bloc {
+    display: flex;
+    justify-content: center;
+}
+
+.Bloc__form {
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    background-color: rgb(32 178 170);
+    border-radius: 2px;
+}
