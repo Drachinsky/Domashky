@@ -1,32 +1,30 @@
 var divArr = document.getElementsByTagName("div");
+var divArr2 = document.querySelector("div");
 
 
-
-function setColor() {
+function setColor() { 
     for (var i = 0; i < divArr.length; i++) {
-        divArr[i].onclick = function () {
-            var color = '#' + (Math.random() * 0xFFFFFF << 0).toString(16);
-            this.style.backgroundColor = color;
-        }
-        
-    }
-    
+        divArr[i].onmouseover = function () {
+            var bgrColor = '#' + (Math.random() * 0xFFFFFF << 0).toString(16);
+            this.style.backgroundColor = bgrColor;
+            this.innerText = `Цвет: ` + this.style.backgroundColor;
+        }        
+        divArr[i].innerText = 'Найди. Случайний цвет'
+    }    
 }
 
-function getTextColor() {
-    
-    for (var i = 0; i < divArr.length; i++) {
-        divArr[i].onclick = function () {
-            var style = getComputedStyle(divArr);
-            console.log(style.backgroundColor)
-        }
-       
-    }
-    
-}
 
 setColor();
-getTextColor();
 
 
-// var dodo = 
+
+
+
+
+
+
+
+
+
+
+
