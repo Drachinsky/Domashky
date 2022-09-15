@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 0 20px 0;
+    margin: 0 20px 0 20px;
+}
+
+a {
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.my-text {
+    
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px 0 20px;
+    padding: 20px 0 20px 0;
+    display: none;
+}
+
+.my-text__style {
+    align-items: flex-start;
+    height: 90px;
+    width: 520px;
+    font-size: 20px;
+    
+}
+
+
+.btn {
+    padding: 10px;
+}
