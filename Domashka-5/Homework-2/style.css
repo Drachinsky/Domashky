@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    padding: 40px 50px 40px 50px ;
+}
+
+.text-blok {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-blok__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 0 20px;
+}
+
+.text-blok__text {
+    font-size: 30px;
+}
+
+input {
+    padding: 10px;
+    font-size: 20px;
+}
